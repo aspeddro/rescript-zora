@@ -1,17 +1,18 @@
 {
-  "name": "@dusty-phillips/rescript-zora",
-  "version": "3.0.1",
   "suffix": ".mjs",
   "sources": [
     {
       "dir": "src",
       "subdirs": true
     },
-    { "dir": "tests", "subdirs": true, "type": "dev" }
+    {
+      "dir": "tests",
+      "subdirs": true,
+      "type": "dev"
+    }
   ],
   "package-specs": {
     "module": "es6-global",
     "in-source": true
-  },
-  "bs-dependencies": ["@ryyppy/rescript-promise"]
+  }
 }
